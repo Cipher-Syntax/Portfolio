@@ -38,7 +38,7 @@ const Projects = () => {
                             }
                         </p>
                         <a 
-                            href="#" 
+                            href="https://github.com/Cipher-Syntax/Django-React-Projects" 
                             className='block text-center py-2 mt-3 bg-[#1a1a1a] text-[#14B8A6] rounded hover:bg-[#14B8A6] hover:text-white transition-colors duration-300'
                         >
                             View Code

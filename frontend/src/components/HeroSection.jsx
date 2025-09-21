@@ -25,8 +25,16 @@ const HeroSection = () => {
                 <div className='flex flex-wrap gap-5 mt-5 items-center justify-center md:items-start md:justify-start'>
                         {/* Social */}
                         <div className='flex gap-3'>
-                            {[FaGithub, FaLinkedinIn, FaFacebookF].map((Icon, idx) => (
-                                <a key={idx} href="#" className='p-3 bg-gray-100 rounded-lg shadow hover:bg-[#14B8A6] hover:text-white transition-colors duration-300'>
+                            {[
+                                { Icon: FaGithub, label: "GitHub", url: "https://github.com/Cipher-Syntax/Django-React-Projects" },
+                                { Icon: FaLinkedinIn, label: "LinkedIn", url: "www.linkedin.com/in/justine-toong-347953363" },
+                                { Icon: FaFacebookF, label: "Facebook", url: "https://www.facebook.com/programmerjustine" }
+                            ].map((Icon, idx) => (
+                                <a key={idx} 
+                                href={url}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                 className='p-3 bg-gray-100 rounded-lg shadow hover:bg-[#14B8A6] hover:text-white transition-colors duration-300'>
                                     <Icon size={20} />
                                 </a>
                             ))}
