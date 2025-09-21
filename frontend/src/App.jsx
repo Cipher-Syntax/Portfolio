@@ -5,7 +5,7 @@ const App = () => {
     return (
         <>
             {/* <Headers></Headers> */}
-            <main>
+            <main className='flex flex-col items-center justify-center'>
                 <HeroSection></HeroSection>
                 <AboutMe></AboutMe>
                 <Skills></Skills>
