@@ -30,7 +30,7 @@ const Footer = () => {
                             { Icon: FaGithub, label: "GitHub", url: "https://github.com/Cipher-Syntax/Django-React-Projects" },
                             { Icon: FaLinkedinIn, label: "LinkedIn", url: "https://www.linkedin.com/in/justine-toong-347953363" },
                             { Icon: FaFacebookF, label: "Facebook", url: "https://www.facebook.com/programmerjustine" }
-                        ].map(( Icon, url, idx) => (
+                        ].map(({ Icon, url}, idx) => (
                             <a
                             key={idx}
                             href={url}
