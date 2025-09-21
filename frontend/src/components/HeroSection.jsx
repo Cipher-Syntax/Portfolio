@@ -29,7 +29,7 @@ const HeroSection = () => {
                                 { Icon: FaGithub, label: "GitHub", url: "https://github.com/Cipher-Syntax/Django-React-Projects" },
                                 { Icon: FaLinkedinIn, label: "LinkedIn", url: "www.linkedin.com/in/justine-toong-347953363" },
                                 { Icon: FaFacebookF, label: "Facebook", url: "https://www.facebook.com/programmerjustine" }
-                            ].map((Icon, idx) => (
+                            ].map((Icon, url, idx) => (
                                 <a key={idx} 
                                 href={url}
                                 target='_blank'

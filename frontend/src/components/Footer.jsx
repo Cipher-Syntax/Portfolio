@@ -25,23 +25,24 @@ const Footer = () => {
                 {/* Social Links */}
                 <div className='flex flex-col gap-3'>
                     <h3 className='text-[#14B8A6] font-bold text-lg'>Follow Me</h3>
-                    <div className='flex gap-4'>
+                    <div className="flex gap-4">
                         {[
                             { Icon: FaGithub, label: "GitHub", url: "https://github.com/Cipher-Syntax/Django-React-Projects" },
-                            { Icon: FaLinkedinIn, label: "LinkedIn", url: "www.linkedin.com/in/justine-toong-347953363" },
+                            { Icon: FaLinkedinIn, label: "LinkedIn", url: "https://www.linkedin.com/in/justine-toong-347953363" },
                             { Icon: FaFacebookF, label: "Facebook", url: "https://www.facebook.com/programmerjustine" }
-                        ].map((Icon, idx) => (
-                        <a 
-                            key={idx} 
+                        ].map(( Icon, url, idx) => (
+                            <a
+                            key={idx}
                             href={url}
-                            target='_blank'
+                            target="_blank"
                             rel="noopener noreferrer"
-                            className='p-3 bg-[#2a2a2a] rounded-full flex items-center justify-center text-white hover:bg-[#14B8A6] hover:text-white transition-all duration-300 transform hover:scale-110'
-                        >
-                            <Icon size={18}/>
-                        </a>
+                            className="p-3 bg-[#2a2a2a] rounded-full flex items-center justify-center text-white hover:bg-[#14B8A6] hover:text-white transition-all duration-300 transform hover:scale-110"
+                            >
+                            <Icon size={18} />
+                            </a>
                         ))}
                     </div>
+
                 </div>
 
             </div>
