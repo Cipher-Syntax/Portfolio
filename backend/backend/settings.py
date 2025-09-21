@@ -55,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.admin',
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -80,9 +81,18 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.config(default=config('DATABASE_URL'))
-}
+if os.environ.get("RENDER"):  # when running on Render
+    DATABASES = {
+        "default": dj_database_url.config(default=config("DATABASE_URL"))
+    }
+else:  # local dev
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
+        }
+    }
+
 
 
 # Password validation
