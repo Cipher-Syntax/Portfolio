@@ -4,7 +4,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import Location from '../assets/location.png'
 import api from '../api/api';
 
-const Contact = () => {
+const Contact = ({ id }) => {
     const [firstname, setFirstname] = useState('')
     const [lastname, setLastname] = useState('')
     const [email, setEmail] = useState('')
@@ -37,7 +37,7 @@ const Contact = () => {
     }
 
     return (
-        <section className='w-[85%] mx-auto mt-20'>
+        <section className='w-[85%] mx-auto mt-20' id={id}>
             <h1 className='text-3xl font-bold tracking-widest mb-12 text-center'>Get In Touch</h1>
 
             <div className='flex flex-col md:flex-row md:justify-between gap-10'>

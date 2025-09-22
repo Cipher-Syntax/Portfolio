@@ -7,10 +7,10 @@ const App = () => {
             {/* <Headers></Headers> */}
             <main>
                 <HeroSection></HeroSection>
-                <AboutMe></AboutMe>
-                <Skills></Skills>
-                <Projects></Projects>
-                <Contact></Contact>
+                <AboutMe id="about"></AboutMe>
+                <Skills id="skills"></Skills>
+                <Projects id="projects"></Projects>
+                <Contact id="contact"></Contact>
             </main>
             <footer className='absolute left-0 right-0'>
                 <Footer></Footer>

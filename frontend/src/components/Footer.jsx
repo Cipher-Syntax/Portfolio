@@ -19,6 +19,7 @@ const Footer = () => {
                     <h3 className='text-[#14B8A6] font-bold text-lg'>Quick Links</h3>
                     <a href="#about" className='hover:text-[#14B8A6] transition-colors'>About Me</a>
                     <a href="#projects" className='hover:text-[#14B8A6] transition-colors'>Projects</a>
+                    <a href="#contact" className='hover:text-[#14B8A6] transition-colors'>Skills</a>
                     <a href="#contact" className='hover:text-[#14B8A6] transition-colors'>Contact</a>
                 </div>
 

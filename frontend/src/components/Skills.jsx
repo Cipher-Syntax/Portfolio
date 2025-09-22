@@ -13,9 +13,9 @@ const skillsData = [
     { name: "SQL", icon: <SiMysql className="text-blue-800" /> },
 ];
 
-const Skills = () => {
+const Skills = ({ id }) => {
     return (
-        <section className='w-[85%] mx-auto mt-20'>
+        <section className='w-[85%] mx-auto mt-20' id={id}>
             <h1 className='text-3xl font-bold tracking-widest text-center mb-10'>My Skills</h1>
             
             <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-5 items-center justify-center'>

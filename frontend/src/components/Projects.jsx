@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import api from '../api/api';
 import Location from '../assets/location.png'
 
-const Projects = () => {
+const Projects = ({ id }) => {
     const [projects, setProjects] = useState([]);
     const [visibleCount, setVisibleCount] = useState(8);
     const [expanded, setExpanded] = useState({});
@@ -24,7 +24,7 @@ const Projects = () => {
     };
 
     return (
-        <section className='w-[85%] mx-auto mt-20'>
+        <section className='w-[85%] mx-auto mt-20' id={id}>
             <h1 className='text-3xl font-bold tracking-widest text-center mb-10'>Featured Projects</h1>
 
             {/* Grid */}

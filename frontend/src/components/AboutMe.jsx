@@ -2,9 +2,9 @@ import React from 'react'
 import What_I_Do from './What_I_Do'
 import { FiGlobe, FiDatabase, FiLayers, FiMonitor, FiTool, FiZap } from 'react-icons/fi';
 
-const AboutMe = () => {
+const AboutMe = ({ id }) => {
     return (
-        <section className='w-[85%] mx-auto mt-20'>
+        <section className='w-[85%] mx-auto mt-20' id={id}>
             
             <h1 className='leading-relaxed tracking-widest font-bold text-3xl'>About Me</h1>
             <div>
