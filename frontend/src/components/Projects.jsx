@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../api/api';
+import Location from '../assets/location.png'
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -35,7 +36,7 @@ const Projects = () => {
                     return (
                         <div key={index} className='p-3 bg-[#f5f5f5] shadow-lg rounded-lg hover:scale-105 transition-transform duration-300'>
                             <img 
-                                src={project.image} 
+                                src={project.image ? project.image : Location} 
                                 alt={project.title} 
                                 className='h-[130px] w-full object-cover rounded-md mb-2' 
                             />
