@@ -8,11 +8,11 @@ const AboutMe = () => {
             
             <h1 className='leading-relaxed tracking-widest font-bold text-3xl'>About Me</h1>
             <div>
-                <p className='text-gray-500 text-[15px] leading-relaxed font-light tracking-wider'>
-                    Hi! I’m <span className='text-[#14B8A6] font-bold'>Justine</span>, an aspiring software engineer and web developer. 
-                    I don’t just build websites—I create <span className='text-[#14B8A6] font-bold'>solutions that work, impress, and inspire</span>. 
-                    I work with <span className='text-[#14B8A6] font-bold'>Python, Django, React, and PHP</span> to turn ideas into <span className='text-[#14B8A6] font-bold'>dynamic, user-friendly experiences</span>. 
-                    Always <span className='text-[#14B8A6] font-bold'>learning, experimenting, and improving</span>, my goal is to craft digital experiences that <span className='text-[#14B8A6] font-bold'>leave a mark and get results</span>.
+                <p className='text-gray-500 text-[13px] text-center sm:text-justify leading-relaxed font-light tracking-wider'>
+                    Hi! I’m <span className='text-[#14B8A6]'>Justine</span>, an aspiring software engineer and web developer. 
+                    I don’t just build websites—I create <span className='text-[#14B8A6]'>solutions that work, impress, and inspire</span>. 
+                    I work with <span className='text-[#14B8A6]'>Python, Django, React, and PHP</span> to turn ideas into <span className='text-[#14B8A6]'>dynamic, user-friendly experiences</span>. 
+                    Always <span className='text-[#14B8A6]'>learning, experimenting, and improving</span>, my goal is to craft digital experiences that <span className='text-[#14B8A6]'>leave a mark and get results</span>.
                 </p>
             </div>
 
