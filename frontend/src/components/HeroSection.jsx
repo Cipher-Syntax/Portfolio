@@ -18,7 +18,7 @@ const HeroSection = () => {
                 <h1 className='text-3xl sm:text-4xl md:text-4xl tracking-wide text-center md:text-left'>
                     Hello World, <span className='text-[#14B8A6] font-bold text-5xl'>Justine</span> Here <br />
                     a <span className='text-[#14B8A6] font-bold text-5xl'>
-                        <ReactTyped strings={["Web Developer", "Programmer"]} typeSpeed={40} loop />
+                        <ReactTyped strings={["Web Developer", "Programmer"]} typeSpeed={60} loop />
                     </span>
                 </h1>
 

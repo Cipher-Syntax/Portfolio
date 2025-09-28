@@ -21,5 +21,5 @@ body {
 }
 
 .orbit-spin {
-  animation: orbit 8s linear infinite; /* speed of rotation */
+  animation: orbit 20s linear infinite; /* speed of rotation */
 }
