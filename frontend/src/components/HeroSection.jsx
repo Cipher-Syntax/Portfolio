@@ -15,16 +15,16 @@ const HeroSection = () => {
             {/* Text Content */}
             <div className='flex-1 flex flex-col gap-5'>
                 <h5 className='font-light tracking-wider text-center md:text-left'>WELCOME TO MY WORLD</h5>
-                <h1 className='text-3xl sm:text-4xl md:text-4xl tracking-wide text-center md:text-left'>
-                    Hello World, <span className='text-[#14B8A6] font-bold text-5xl'>Justine</span> Here <br />
-                    a <span className='text-[#14B8A6] font-bold text-5xl'>
-                        <ReactTyped strings={["Web Developer", "Programmer"]} typeSpeed={60} loop />
+                <h1 className='text-2xl sm:text-3xl md:text-3xl tracking-wide text-center md:text-left'>
+                    Hello World, <span className='text-[#14B8A6] font-bold text-4xl tracking-widest'>Justine</span> Here <br />
+                    a <span className='text-[#14B8A6] font-bold text-4xl tracking-wider'>
+                        <ReactTyped strings={["Web Developer", "Programmer", "Student"]} typeSpeed={100} loop />
                     </span>
                 </h1>
 
-                <p className='text-gray-500 w-[90%] text-center sm:text-justify font-light text-[14px] tracking-wider sm:text-[15px] leading-relaxed md:text-left'>
-                    I don’t code for the sake of coding. I craft <span className='text-[#14B8A6] font-bold'>experiences that sell, impress, and perform</span>. 
-                    If you want it <span className='text-[#14B8A6] font-bold'>done right, fast, and unforgettable</span>, I’m your person.
+                <p className='mt-3 text-gray-500 w-[90%] text-center sm:text-justify font-light text-[14px] sm:text-[15px] leading-relaxed md:text-left tracking-wider'>
+                    I don’t code for the sake of coding. I craft <span className='text-[#14B8A6] font-medium'>experiences that sell, impress, and perform</span>. 
+                    If you want it <span className='text-[#14B8A6] font-medium'>done right, fast, and unforgettable</span>, I’m your person.
                 </p>
 
                 {/* Default icons layout for md+ devices */}
