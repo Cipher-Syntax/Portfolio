@@ -14,3 +14,12 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
 }
+/* Continuous clockwise rotation for the container of icons */
+@keyframes orbit {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.orbit-spin {
+  animation: orbit 8s linear infinite; /* speed of rotation */
+}
