@@ -22,7 +22,7 @@ const HeroSection = () => {
                     </span>
                 </h1>
 
-                <p className='mt-3 text-gray-500 w-[90%] text-center sm:text-justify font-light text-[14px] sm:text-[15px] leading-relaxed md:text-left tracking-wider'>
+                <p className='mt-3 text-gray-500 w-full sm:w-[90%] text-center sm:text-justify font-light text-[14px] sm:text-[15px] leading-relaxed md:text-left tracking-wider'>
                     I don’t code for the sake of coding. I craft <span className='text-[#14B8A6] font-medium'>experiences that sell, impress, and perform</span>. 
                     If you want it <span className='text-[#14B8A6] font-medium'>done right, fast, and unforgettable</span>, I’m your person.
                 </p>
