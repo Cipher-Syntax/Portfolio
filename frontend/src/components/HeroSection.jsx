@@ -1,5 +1,5 @@
 import React from 'react'
-import Justine from '../assets/justine.jpg'
+import Profile from '../assets/profile.jpg'
 import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { SiDjango, SiReact, SiTailwindcss } from "react-icons/si";
 import { ReactTyped } from "react-typed";
@@ -53,9 +53,9 @@ const HeroSection = () => {
 
                 {/* Center Image */}
                 <img
-                    src={Justine}
+                    src={Profile}
                     alt="Justine"
-                    className='absolute inset-0 w-full h-full object-cover rounded-full border-4 border-[#14B8A6] shadow-2xl'
+                    className='absolute inset-0 w-full h-full object-cover object-top rounded-full border-4 border-[#14B8A6] shadow-2xl'
                 />
 
                 {/* Rotating container only for small devices */}
